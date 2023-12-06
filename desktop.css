@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 3rem 8rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 2.5em;
+}
+
+.ham{
+    display: none;
+}
+
+.info{
+    display: flex;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: hsl(236, 13%, 42%);
+    list-style: none;
+    margin-right: 1em;
+}
+
+.nav{
+    cursor: pointer;
+    margin-left: 2.5em;
+}
+
+.nav:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+main{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3em;
+}
+
+section{
+    flex: 10em;
+}
+
+section img{
+    width: 45em;
+}
+
+.basic-info{
+    display: flex;
+    gap: 2em;
+    vertical-align: top;
+}
+
+.basic-info h1{
+    margin-top: .2em;
+    font-size: 3.7em;
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+}
+
+.some-text p{
+    color: hsl(236, 13%, 42%);
+    margin-top: 2em;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.some-text button{
+    margin-top: 2em;
+    padding: .6em 1.5em;
+    border: 0;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.some-text button:hover{
+    background-color: rgb(2, 2, 39);
+}
+
+aside{
+    background-color: rgb(2, 2, 39);
+    color: white;
+    padding: 0 2em;
+}
+
+aside h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 2em;
+}
+
+.subsections{
+    margin: 1em .5em;
+    font-weight: 600;
+    padding: .5em 0;
+    border-bottom: .1em solid white;
+}
+
+.subsections p{
+    color: hsl(233, 8%, 79%);
+}
+
+.subsections_head:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.none{
+    border: none;
+    padding-bottom: 0;
+}
+
+article{
+    color: hsl(236, 13%, 42%);
+    margin-top: 3rem;
+    display: flex;
+    gap: 1em;
+    font-size: 1.1em;
+}
+
+.article img{
+    width: 6em;
+    height: 7em;
+}
+
+.article h2{
+    margin:  0;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+article h3{
+    margin: 0;
+    font-size: 1.1em;
+    color: hsl(240, 100%, 5%);
+}
+
+article h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.article{
+    display: flex;
+    gap: 1em;
+}
+
+.hidden{
+	display: none;
+}
+
+.colors{
+    color: hsl(36, 100%, 99%);
+    color: hsl(233, 8%, 79%);
+    color: hsl(236, 13%, 42%);
+    color: hsl(240, 100%, 5%);
+}
+
+.colors{
+    color: hsl(35, 77%, 62%);
+    color: hsl(5, 85%, 63%);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" media="screen and (max-width:600px) and (min-width:200px)" href="mobile.css">
+    
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="nav-modal hidden">
+        <img class="close-modal" src="assets/images/icon-menu-close.svg" alt="">
+        <ul>
+            <li class="modal-list">Home</li>
+            <li class="modal-list">New</li>
+            <li class="modal-list">Popular</li>
+            <li class="modal-list">Trending</li>
+            <li class="modal-list">Categories</li>
+        </ul>
+    </div>
+    <nav>
+        <div>
+            <img src="assets/images/logo.svg" alt="">
+            <img class="ham" src="assets/images/icon-menu.svg" alt="">
+        </div>
+        <ul class="info">
+            <li class="nav">Home</li>
+            <li class="nav">New<li>
+            <li class="nav">Popular<li>
+            <li class="nav">Trending<li>
+            <li class="nav">Categories<li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <img src="assets/images/image-web-3-desktop.jpg" alt="">
+            <div class="basic-info">
+                <h1>The Bright Future of Web 3.0?</h1>
+                <div class="some-text">
+                    <p>We dive into the next evolution of the web that  claims to put the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?</p>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <h1>New </h1>
+            <div class="subsections">
+                <h3 class="subsections_head">Hydrogen VS Electric Cars</h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="subsections">
+                <h3 class="subsections_head">The Downsides of AI Artistry</h3>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="subsections none">
+                <h3 class="subsections_head">Is VC Funding Drying Up?</h3>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+        </aside>
+    </main>
+
+    <article>
+        <div class="article">
+            <img src="assets/images/image-retro-pcs.jpg" alt="">
+            <div>
+                <h2>01</h2>
+                <h3>Reviving Retro PCs</h3>
+                <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="assets/images/image-top-laptops.jpg" alt="">
+            <div>
+                <h2>02</h2>
+                <h3>Top 10 Laptops of 2022</h3>
+                <p>Our best picks for various needs and budgets.</p>
+            </div>
+        </div>
+        <div class="article">
+            <img src="assets/images/image-gaming-growth.jpg" alt="">
+            <div>
+                <h2>03</h2>
+                <h3>The Growth of Gaming</h3>
+                <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+        </div>
+    </article>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
